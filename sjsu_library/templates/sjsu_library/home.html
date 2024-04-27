@@ -1,0 +1,19 @@
+<!-- Landing page -->
+{% extends 'sjsu_library/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-lg-6 home-title">
+            <p>WELCOME TO</p>
+            <h1>SJSU LIBRARY</h1>
+            <p id="home-info">A digital library with an extensive database of literature for SJSU students.
+            </p>
+            <a class="btn btn-theme" href="{% url 'library-register' %}">Join Now</a>
+        </div>
+        <div class="col-lg-6 text-sm-end">
+            <img src="{% static 'sjsu_library/img/library-home-img.png' %}" alt="Homepage image" class="img-fluid">
+        </div>
+    </div>
+</div>
+{% endblock content %}

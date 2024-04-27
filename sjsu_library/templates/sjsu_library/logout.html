@@ -1,0 +1,23 @@
+{% extends 'sjsu_library/base.html' %}
+{% block content %}
+<div class="container library-logout">
+    <h1>You have logged out successfully.</h1>
+    <div class="container">
+        <div class="row p-4">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 p-2">
+                <a href="{% url 'library-home' %}" class="logout-link">
+                    <button class="btn btn-theme">Back to Home</button>
+                </a>
+            </div>
+            <div class="col-sm-4 p-2">
+                <a href="{% url 'library-login' %}" class="logout-link">
+                    <button class="btn btn-theme">Login Again</button>
+                </a>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

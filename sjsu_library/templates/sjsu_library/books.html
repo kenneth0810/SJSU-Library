@@ -1,0 +1,69 @@
+<!-- Books page for all users -->
+<!-- Students can borrow books -->
+<!-- Librarians can delete books (adding books function in progress) -->
+{% extends 'sjsu_library/base.html' %}
+{% block content %}
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1>Hello {{ user.first_name }}!</h1>
+        {% if user.is_librarian %}
+        <form action="" method="POST" class="add-form d-flex justify-content-end">
+            {% csrf_token %}
+            <button class="btn btn-success" type="submit">Add Book</button>
+        </form>
+        {% endif %}
+    </div>
+    {% if books %}
+    <div class="table-container">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Link</th>
+                    <th scope="col">Copies</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.year }}</td>
+                    <td>
+                        {% if book.link %}
+                        <a href="{{ book.link }}" target="_blank">View Book</a>
+                        {% else %}
+                        <p>None</p>
+                        {% endif %}
+                    </td>
+                    <td>{{ book.count }}</td>
+                    <td class="action-btn">
+                        {% if user.is_librarian %}
+                        <form action="{% url 'delete-book' book.id %}" method="POST">
+                            {% csrf_token %}
+                            <button class="btn btn-danger" type="submit">Delete</button>
+                        </form>
+                        {% else %}
+                        <form action="{% url 'borrow-book' book.id %}" method="POST">
+                            {% csrf_token %}
+                            {% if borrowed_books_id and book.id in borrowed_books_id or book.count == 0 %}
+                            <button class="btn disabled" type="submit">Borrow</button>
+                            {% else %}
+                            <button class="btn btn-theme" type="submit">Borrow</button>
+                            {% endif %}
+                        </form>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>There are currently no books in the database.</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

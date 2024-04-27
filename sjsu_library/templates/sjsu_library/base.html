@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'sjsu_library/main.css' %}">
+  {% if title %}
+  <title>SJSUL - {{ title }}</title>
+  {% else %}
+  <title>SJSUL</title>
+  {% endif %}
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" {% if user.is_authenticated %} href="{% url 'library-books' %}" {% else %}
+        href="{% url 'library-home' %}" {% endif %}>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="36"
+          height="36" class="logo nav-hover">
+          <path
+            d="M24,3V20.611l-12,3.429L0,20.611V4c0-.95,.435-1.823,1.194-2.395,.249-.188,.523-.316,.806-.418V19.103l10,2.857,10-2.857V.187c.283,.102,.558,.23,.806,.418,.759,.572,1.194,1.445,1.194,2.395Zm-11,.371v14.263l-1,.286-1-.286V3.371c0-1.332-.895-2.519-2.251-2.903L7.08,.069c-1.571-.375-3.08,.817-3.08,2.432v15.213l8,2.286,8-2.286V2.535c0-1.597-1.477-2.785-3.037-2.442l-1.788,.393c-1.281,.366-2.176,1.553-2.176,2.885Z" />
+        </svg>
+      </a>
+      {% if user.is_authenticated %}
+        {% if user.is_superuser %}
+        <form action="{% url 'switch-view' %}" method="POST">
+          {% csrf_token %}
+          <button class="btn btn-theme" type="submit">Go to {% if user.is_librarian %}Student{% else %}Librarian{% endif %} View</button>
+        </form>
+        {% else %}
+          {% if user.is_librarian %}
+          <span>Librarian Dashboard</span>
+          {% else %}
+          <span>Student Dashboard</span>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav nav-collapse-link">
+          {% if user.is_authenticated %}
+            {% if user.is_superuser %}
+            <a class="nav-link nav-hover" href="/admin">Admin</a>
+            {% endif %}
+          <a class="nav-link nav-hover" href="{% url 'library-books' %}">Books</a>
+            {% if user.is_librarian %}
+            <a class="nav-link nav-hover" href="{% url 'library-users' %}">Users</a>
+            {% else %}
+            <a class="nav-link nav-hover" href="{% url 'library-account' %}">Account</a>
+            {% endif %}
+          <a class="nav-link nav-hover" href="{% url 'library-about' %}">About</a>
+          <a href="" class="nav-link nav-hover" id="logout-btn">Logout</a>
+          <form action="{% url 'library-logout' %}" method="POST" id="logout-form">
+            {% csrf_token %}
+          </form>
+          {% else %}
+          <a class="nav-link nav-hover" href="{% url 'library-home' %}">Home</a>
+          <a class="nav-link nav-hover" href="{% url 'library-about' %}">About</a>
+          <a class="nav-link nav-hover" href="{% url 'library-register' %}">Register</a>
+          <a class="nav-link nav-hover" href="{% url 'library-login' %}">Login</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="messages">
+      {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+          {{ message }}
+        </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  {% block content %}{% endblock %}
+  {% if not user.is_authenticated %}
+  <footer class="about-footer">
+    <p>Project by Kenneth Nguyen</p>
+  </footer>
+  {% endif %}
+  <script src="{% static 'sjsu_library/js/script.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

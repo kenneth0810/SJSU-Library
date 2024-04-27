@@ -1,0 +1,1069 @@
+[
+    {
+        "model": "sjsu_library.book",
+        "pk": 1,
+        "fields": {
+            "title": "Um casamento arranjado",
+            "author": "Zana Kheiron",
+            "year": 2019,
+            "link": "https://openlibrary.org/works/OL35351151W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 2,
+        "fields": {
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "year": 2016,
+            "link": "https://openlibrary.org/works/OL17930368W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 3,
+        "fields": {
+            "title": "The 48 Laws of Power",
+            "author": "Robert Greene",
+            "year": 1998,
+            "link": "https://openlibrary.org/works/OL1968368W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 4,
+        "fields": {
+            "title": "Control Your Mind and Master Your Feelings",
+            "author": "Eric Robertson - undifferentiated",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL25312237W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 5,
+        "fields": {
+            "title": "It Ends With Us",
+            "author": "Colleen Hoover",
+            "year": 2012,
+            "link": "https://openlibrary.org/works/OL18020194W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 6,
+        "fields": {
+            "title": "Rich Dad, Poor Dad",
+            "author": "Robert T. Kiyosaki",
+            "year": 1990,
+            "link": "https://openlibrary.org/works/OL2010879W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 7,
+        "fields": {
+            "title": "It Starts with Us",
+            "author": "Colleen Hoover",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL27733867W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 8,
+        "fields": {
+            "title": "The Subtle Art of Not Giving a F*ck",
+            "author": "Mark Manson",
+            "year": 2016,
+            "link": "https://openlibrary.org/works/OL17590212W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 9,
+        "fields": {
+            "title": "A Court of Mist and Fury",
+            "author": "Sarah J. Maas",
+            "year": 2014,
+            "link": "https://openlibrary.org/works/OL17860744W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 10,
+        "fields": {
+            "title": "Think and Grow Rich",
+            "author": "Napoleon Hill",
+            "year": 1937,
+            "link": "https://openlibrary.org/works/OL527464W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 11,
+        "fields": {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": "J. K. Rowling",
+            "year": 1997,
+            "link": "https://openlibrary.org/works/OL82563W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 12,
+        "fields": {
+            "title": "The Psychology of Money",
+            "author": "Morgan Housel",
+            "year": 2020,
+            "link": "https://openlibrary.org/works/OL21640039W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 13,
+        "fields": {
+            "title": "Icebreaker",
+            "author": "Hannah Grace",
+            "year": 2020,
+            "link": "https://openlibrary.org/works/OL28952677W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 14,
+        "fields": {
+            "title": "Haunting Adeline",
+            "author": "H. D. Carlton",
+            "year": 2021,
+            "link": "https://openlibrary.org/works/OL27310398W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 15,
+        "fields": {
+            "title": "A Game of Thrones",
+            "author": "George R. R. Martin",
+            "year": 1996,
+            "link": "https://openlibrary.org/works/OL257943W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 16,
+        "fields": {
+            "title": "How to win friends and influence people",
+            "author": "Dale Carnegie",
+            "year": 1913,
+            "link": "https://openlibrary.org/works/OL1063267W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 17,
+        "fields": {
+            "title": "Twisted Love",
+            "author": "Ana Huang",
+            "year": 2021,
+            "link": "https://openlibrary.org/works/OL24390422W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 18,
+        "fields": {
+            "title": "Twisted 1. Twisted Love",
+            "author": "Ana Huang",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL32521579W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 19,
+        "fields": {
+            "title": "Red, White & Royal Blue",
+            "author": "Casey McQuiston",
+            "year": 2019,
+            "link": "https://openlibrary.org/works/OL20090688W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 20,
+        "fields": {
+            "title": "Shatter Me",
+            "author": "Tahereh Mafi",
+            "year": 2011,
+            "link": "https://openlibrary.org/works/OL16014245W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 21,
+        "fields": {
+            "title": "The Power of Your Subconscious Mind",
+            "author": "Joseph Murphy",
+            "year": 1963,
+            "link": "https://openlibrary.org/works/OL55806W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 22,
+        "fields": {
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "year": 1988,
+            "link": "https://openlibrary.org/works/OL796465W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 23,
+        "fields": {
+            "title": "The Love Hypothesis",
+            "author": "Ali Hazelwood",
+            "year": 2021,
+            "link": "https://openlibrary.org/works/OL24178205W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 24,
+        "fields": {
+            "title": "Harry Potter and the Deathly Hallows",
+            "author": "J. K. Rowling",
+            "year": 2007,
+            "link": "https://openlibrary.org/works/OL82586W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 25,
+        "fields": {
+            "title": "Read People Like a Book",
+            "author": "Patrick King",
+            "year": 2020,
+            "link": "https://openlibrary.org/works/OL25291486W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 26,
+        "fields": {
+            "title": "Twisted Lies",
+            "author": "Ana Huang",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL27818823W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 27,
+        "fields": {
+            "title": "Twisted Games",
+            "author": "Ana Huang",
+            "year": 2021,
+            "link": "https://openlibrary.org/works/OL25515697W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 28,
+        "fields": {
+            "title": "The Cruel Prince",
+            "author": "Holly Black",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL17850410W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 29,
+        "fields": {
+            "title": "The Hunger Games",
+            "author": "Suzanne Collins",
+            "year": 2008,
+            "link": "https://openlibrary.org/works/OL5735363W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 30,
+        "fields": {
+            "title": "The 7 Habits of Highly Effective People",
+            "author": "Stephen R. Covey",
+            "year": 1989,
+            "link": "https://openlibrary.org/works/OL2629977W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 31,
+        "fields": {
+            "title": "Latidos Que No Dije",
+            "author": "Roos",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL28914133W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 32,
+        "fields": {
+            "title": "Ugly Love",
+            "author": "Colleen Hoover",
+            "year": 2014,
+            "link": "https://openlibrary.org/works/OL20577143W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 33,
+        "fields": {
+            "title": "The Lightning Thief",
+            "author": "Rick Riordan",
+            "year": 2005,
+            "link": "https://openlibrary.org/works/OL492658W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 34,
+        "fields": {
+            "title": "Fifty Shades of Grey",
+            "author": "E. L. James",
+            "year": 2000,
+            "link": "https://openlibrary.org/works/OL16336633W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 35,
+        "fields": {
+            "title": "Nineteen Eighty-Four",
+            "author": "George Orwell",
+            "year": 1949,
+            "link": "https://openlibrary.org/works/OL1168083W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 36,
+        "fields": {
+            "title": "It",
+            "author": "Stephen King",
+            "year": 1986,
+            "link": "https://openlibrary.org/works/OL81613W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 37,
+        "fields": {
+            "title": "A Gentle Reminder",
+            "author": "Bianca Sparacino",
+            "year": 2020,
+            "link": "https://openlibrary.org/works/OL25296570W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 38,
+        "fields": {
+            "title": "The Art of Seduction",
+            "author": "Robert Greene",
+            "year": 1901,
+            "link": "https://openlibrary.org/works/OL1968364W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 39,
+        "fields": {
+            "title": "Can't Hurt Me",
+            "author": "David Goggins",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL18108064W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 40,
+        "fields": {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "J. K. Rowling",
+            "year": 1998,
+            "link": "https://openlibrary.org/works/OL82537W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 41,
+        "fields": {
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "year": 1910,
+            "link": "https://openlibrary.org/works/OL278851W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 42,
+        "fields": {
+            "title": "The Laws of Human Nature",
+            "author": "Robert Greene",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL19761410W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 43,
+        "fields": {
+            "title": "Sapiens",
+            "author": "Yuval Noah Harari",
+            "year": 2011,
+            "link": "https://openlibrary.org/works/OL17075811W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 44,
+        "fields": {
+            "title": "A Good Girl's Guide to Murder",
+            "author": "Holly Jackson",
+            "year": 2019,
+            "link": "https://openlibrary.org/works/OL20646061W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 45,
+        "fields": {
+            "title": "Thinking, fast and slow",
+            "author": "Daniel Kahneman",
+            "year": 2011,
+            "link": "https://openlibrary.org/works/OL15992072W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 46,
+        "fields": {
+            "title": "Twisted Hate",
+            "author": "Ana Huang",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL27245843W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 47,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1602,
+            "link": "https://openlibrary.org/works/OL66554W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 48,
+        "fields": {
+            "title": "A Court of Thorns and Roses",
+            "author": "Sarah J. Maas",
+            "year": 2015,
+            "link": "https://openlibrary.org/works/OL17352669W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 49,
+        "fields": {
+            "title": "Twilight",
+            "author": "Stephenie Meyer",
+            "year": 2005,
+            "link": "https://openlibrary.org/works/OL5720023W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 50,
+        "fields": {
+            "title": "101 Essays That Will Change The Way You Think",
+            "author": "Brianna Wiest",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL23746568W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 51,
+        "fields": {
+            "title": "The Seven Husbands of Evelyn Hugo",
+            "author": "Taylor Jenkins Reid",
+            "year": 2017,
+            "link": "https://openlibrary.org/works/OL18203673W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 52,
+        "fields": {
+            "title": "Married at first sight",
+            "author": "Gu Lingfei",
+            "year": 2015,
+            "link": "https://openlibrary.org/works/OL35223328W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 53,
+        "fields": {
+            "title": "Harry Potter and the Goblet of Fire",
+            "author": "J. K. Rowling",
+            "year": 1993,
+            "link": "https://openlibrary.org/works/OL82560W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 54,
+        "fields": {
+            "title": "If he had been with me",
+            "author": "Laura Nowlin",
+            "year": 2013,
+            "link": "https://openlibrary.org/works/OL19667762W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 55,
+        "fields": {
+            "title": "Fourth Wing",
+            "author": "Rebecca Yarros",
+            "year": 2023,
+            "link": "https://openlibrary.org/works/OL29226517W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 56,
+        "fields": {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "author": "J. K. Rowling",
+            "year": 1999,
+            "link": "https://openlibrary.org/works/OL82536W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 57,
+        "fields": {
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "year": 1965,
+            "link": "https://openlibrary.org/works/OL893415W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 58,
+        "fields": {
+            "title": "The Summer I Turned Pretty Trilogy",
+            "author": "Jenny Han",
+            "year": 2009,
+            "link": "https://openlibrary.org/works/OL17508740W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 59,
+        "fields": {
+            "title": "The Silent Patient",
+            "author": "Alex Michaelides",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL19096402W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 60,
+        "fields": {
+            "title": "Charlotte's Web",
+            "author": "E. B. White",
+            "year": 1952,
+            "link": "https://openlibrary.org/works/OL483391W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 61,
+        "fields": {
+            "title": "Hunting Adeline",
+            "author": "H. D. Carlton",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL27297240W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 62,
+        "fields": {
+            "title": "Deep Work",
+            "author": "Cal Newport",
+            "year": 2016,
+            "link": "https://openlibrary.org/works/OL17713267W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 63,
+        "fields": {
+            "title": "No Longer Human",
+            "author": "Osamu Dazai",
+            "year": 1948,
+            "link": "https://openlibrary.org/works/OL3923956W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 64,
+        "fields": {
+            "title": "Diary of a Wimpy Kid",
+            "author": "Jeff Kinney",
+            "year": 2002,
+            "link": "https://openlibrary.org/works/OL8483260W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 65,
+        "fields": {
+            "title": "Hujan",
+            "author": "Tere Liye",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL24348253W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 66,
+        "fields": {
+            "title": "Girl In pieces",
+            "author": "Kathleen Glasgow",
+            "year": 2016,
+            "link": "https://openlibrary.org/works/OL29331705W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 67,
+        "fields": {
+            "title": "Romeo and Juliet",
+            "author": "William Shakespeare",
+            "year": 1597,
+            "link": "https://openlibrary.org/works/OL362427W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 68,
+        "fields": {
+            "title": "King of Wrath",
+            "author": "Ana Huang",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL28744393W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 69,
+        "fields": {
+            "title": "Ikigai",
+            "author": "H\u00e9ctor Garc\u00eda",
+            "year": 2017,
+            "link": "https://openlibrary.org/works/OL19714233W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 70,
+        "fields": {
+            "title": "How to Talk to Anyone",
+            "author": "Leil Lowndes",
+            "year": 1999,
+            "link": "https://openlibrary.org/works/OL1874705W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 71,
+        "fields": {
+            "title": "The Summer I Turned Pretty",
+            "author": "Jenny Han",
+            "year": 2000,
+            "link": "https://openlibrary.org/works/OL5819962W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 72,
+        "fields": {
+            "title": "My Fault",
+            "author": "Mercedes Ron",
+            "year": 2017,
+            "link": "https://openlibrary.org/works/OL34339623W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 73,
+        "fields": {
+            "title": "The Power of Positive Thinking",
+            "author": "Norman Vincent Peale",
+            "year": 1952,
+            "link": "https://openlibrary.org/works/OL2917168W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 74,
+        "fields": {
+            "title": "Workbook for the Mountain Is You",
+            "author": "Smart Reads",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL31113476W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 75,
+        "fields": {
+            "title": "A Little Life",
+            "author": "Hanya Yanagihara",
+            "year": 2015,
+            "link": "https://openlibrary.org/works/OL17370186W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 76,
+        "fields": {
+            "title": "The Power of Now",
+            "author": "Eckhart Tolle",
+            "year": 1997,
+            "link": "https://openlibrary.org/works/OL5727686W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 77,
+        "fields": {
+            "title": "Heartstopper, Volume 1",
+            "author": "Alice Oseman",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL20354498W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 78,
+        "fields": {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "author": "J. K. Rowling",
+            "year": 2005,
+            "link": "https://openlibrary.org/works/OL82565W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 79,
+        "fields": {
+            "title": "The Adventures of Sherlock Holmes [12 stories]",
+            "author": "Arthur Conan Doyle",
+            "year": 1892,
+            "link": "https://openlibrary.org/works/OL262421W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 80,
+        "fields": {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "author": "J. K. Rowling",
+            "year": 2003,
+            "link": "https://openlibrary.org/works/OL82548W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 81,
+        "fields": {
+            "title": "The Four Agreements",
+            "author": "Don Miguel Ruiz",
+            "year": 1997,
+            "link": "https://openlibrary.org/works/OL27203W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 82,
+        "fields": {
+            "title": "S\u00e5ngen om Akilles",
+            "author": "Madeline Miller",
+            "year": 2011,
+            "link": "https://openlibrary.org/works/OL16509148W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 83,
+        "fields": {
+            "title": "Wonder",
+            "author": "R. J. Palacio",
+            "year": 2001,
+            "link": "https://openlibrary.org/works/OL16142094W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 84,
+        "fields": {
+            "title": "The Wrong Bride",
+            "author": "Catharina Maura",
+            "year": 2022,
+            "link": "https://openlibrary.org/works/OL29046643W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 85,
+        "fields": {
+            "title": "Animal Farm",
+            "author": "George Orwell",
+            "year": 1945,
+            "link": "https://openlibrary.org/works/OL1168007W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 86,
+        "fields": {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "year": 1937,
+            "link": "https://openlibrary.org/works/OL262758W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 87,
+        "fields": {
+            "title": "Verity",
+            "author": "Colleen Hoover",
+            "year": 2018,
+            "link": "https://openlibrary.org/works/OL20068530W",
+            "count": 1
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 88,
+        "fields": {
+            "title": "The Shining",
+            "author": "Stephen King",
+            "year": 1977,
+            "link": "https://openlibrary.org/works/OL81633W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 89,
+        "fields": {
+            "title": "Coraline",
+            "author": "Neil Gaiman",
+            "year": 2002,
+            "link": "https://openlibrary.org/works/OL679358W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 90,
+        "fields": {
+            "title": "The Intelligent Investor",
+            "author": "Graham, Benjamin;Zweig, Jason",
+            "year": 2003,
+            "link": "https://openlibrary.org/works/OL21152532W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 91,
+        "fields": {
+            "title": "Better Than the Movies",
+            "author": "Lynn Painter",
+            "year": 2021,
+            "link": "https://openlibrary.org/works/OL24542623W",
+            "count": 4
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 92,
+        "fields": {
+            "title": "Shatter Me Complete Collection",
+            "author": "Tahereh Mafi",
+            "year": 2011,
+            "link": "https://openlibrary.org/works/OL21802553W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 93,
+        "fields": {
+            "title": "The Fault in Our Stars",
+            "author": "John Green",
+            "year": 2010,
+            "link": "https://openlibrary.org/works/OL16444438W",
+            "count": 3
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 94,
+        "fields": {
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "year": 1953,
+            "link": "https://openlibrary.org/works/OL103123W",
+            "count": 5
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 95,
+        "fields": {
+            "title": "American Psycho",
+            "author": "Bret Easton Ellis",
+            "year": 1991,
+            "link": "https://openlibrary.org/works/OL1812933W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 96,
+        "fields": {
+            "title": "Le petit prince",
+            "author": "Antoine de Saint-Exup\u00e9ry",
+            "year": 1943,
+            "link": "https://openlibrary.org/works/OL10263W",
+            "count": 2
+        }
+    },
+    {
+        "model": "sjsu_library.book",
+        "pk": 97,
+        "fields": {
+            "title": "Lolita",
+            "author": "Vladimir Nabokov",
+            "year": 1955,
+            "link": "https://openlibrary.org/works/OL627084W",
+            "count": 4
+        }
+    }
+]
